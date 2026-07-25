@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "TN11",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "تونس",
+      "en": "Tunis",
+      "slug": "tunis-tn11"
+    },
+    "code": {
+      "id": "TN11",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN1",
+      "level": 1,
+      "name": {
+        "local": "الشمال الشرقي",
+        "en": "North East",
+        "slug": "north-east-tn1"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN1",
+        "level": 1,
+        "name": {
+          "local": "الشمال الشرقي",
+          "en": "North East",
+          "slug": "north-east-tn1"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 21,
+      "sector": 163
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "36.818",
+      "lon": "10.213"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN12",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "أريانة",
+      "en": "Ariana",
+      "slug": "ariana-tn12"
+    },
+    "code": {
+      "id": "TN12",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN1",
+      "level": 1,
+      "name": {
+        "local": "الشمال الشرقي",
+        "en": "North East",
+        "slug": "north-east-tn1"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN1",
+        "level": 1,
+        "name": {
+          "local": "الشمال الشرقي",
+          "en": "North East",
+          "slug": "north-east-tn1"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 7,
+      "sector": 48
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "36.968",
+      "lon": "10.122"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN13",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "بن عروس",
+      "en": "Ben Arous",
+      "slug": "ben-arous-tn13"
+    },
+    "code": {
+      "id": "TN13",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN1",
+      "level": 1,
+      "name": {
+        "local": "الشمال الشرقي",
+        "en": "North East",
+        "slug": "north-east-tn1"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN1",
+        "level": 1,
+        "name": {
+          "local": "الشمال الشرقي",
+          "en": "North East",
+          "slug": "north-east-tn1"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 12,
+      "sector": 76
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "36.63",
+      "lon": "10.211"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN14",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "منوبة",
+      "en": "Manubah",
+      "slug": "manubah-tn14"
+    },
+    "code": {
+      "id": "TN14",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN1",
+      "level": 1,
+      "name": {
+        "local": "الشمال الشرقي",
+        "en": "North East",
+        "slug": "north-east-tn1"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN1",
+        "level": 1,
+        "name": {
+          "local": "الشمال الشرقي",
+          "en": "North East",
+          "slug": "north-east-tn1"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 8,
+      "sector": 47
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "36.766",
+      "lon": "9.83"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN15",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "نابل",
+      "en": "Nabeul",
+      "slug": "nabeul-tn15"
+    },
+    "code": {
+      "id": "TN15",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN1",
+      "level": 1,
+      "name": {
+        "local": "الشمال الشرقي",
+        "en": "North East",
+        "slug": "north-east-tn1"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN1",
+        "level": 1,
+        "name": {
+          "local": "الشمال الشرقي",
+          "en": "North East",
+          "slug": "north-east-tn1"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 16,
+      "sector": 101
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "36.697",
+      "lon": "10.675"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN16",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "زغوان",
+      "en": "Zaghouan",
+      "slug": "zaghouan-tn16"
+    },
+    "code": {
+      "id": "TN16",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN1",
+      "level": 1,
+      "name": {
+        "local": "الشمال الشرقي",
+        "en": "North East",
+        "slug": "north-east-tn1"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN1",
+        "level": 1,
+        "name": {
+          "local": "الشمال الشرقي",
+          "en": "North East",
+          "slug": "north-east-tn1"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 6,
+      "sector": 48
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "36.332",
+      "lon": "10.047"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN17",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "بنزرت",
+      "en": "Bizerte",
+      "slug": "bizerte-tn17"
+    },
+    "code": {
+      "id": "TN17",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN1",
+      "level": 1,
+      "name": {
+        "local": "الشمال الشرقي",
+        "en": "North East",
+        "slug": "north-east-tn1"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN1",
+        "level": 1,
+        "name": {
+          "local": "الشمال الشرقي",
+          "en": "North East",
+          "slug": "north-east-tn1"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 14,
+      "sector": 102
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "37.035",
+      "lon": "9.639"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN21",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "باجة",
+      "en": "Béja",
+      "slug": "bja-tn21"
+    },
+    "code": {
+      "id": "TN21",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN2",
+      "level": 1,
+      "name": {
+        "local": "الشمال الغربي",
+        "en": "North West",
+        "slug": "north-west-tn2"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN2",
+        "level": 1,
+        "name": {
+          "local": "الشمال الغربي",
+          "en": "North West",
+          "slug": "north-west-tn2"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 9,
+      "sector": 101
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "36.747",
+      "lon": "9.201"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN22",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "جندوبة",
+      "en": "Jendouba",
+      "slug": "jendouba-tn22"
+    },
+    "code": {
+      "id": "TN22",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN2",
+      "level": 1,
+      "name": {
+        "local": "الشمال الغربي",
+        "en": "North West",
+        "slug": "north-west-tn2"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN2",
+        "level": 1,
+        "name": {
+          "local": "الشمال الغربي",
+          "en": "North West",
+          "slug": "north-west-tn2"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 9,
+      "sector": 95
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "36.68",
+      "lon": "8.755"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN23",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "الكاف",
+      "en": "Le Kef",
+      "slug": "le-kef-tn23"
+    },
+    "code": {
+      "id": "TN23",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN2",
+      "level": 1,
+      "name": {
+        "local": "الشمال الغربي",
+        "en": "North West",
+        "slug": "north-west-tn2"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN2",
+        "level": 1,
+        "name": {
+          "local": "الشمال الغربي",
+          "en": "North West",
+          "slug": "north-west-tn2"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 11,
+      "sector": 87
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "36.034",
+      "lon": "8.724"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN24",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "سليانـــة",
+      "en": "Siliana",
+      "slug": "siliana-tn24"
+    },
+    "code": {
+      "id": "TN24",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN2",
+      "level": 1,
+      "name": {
+        "local": "الشمال الغربي",
+        "en": "North West",
+        "slug": "north-west-tn2"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN2",
+        "level": 1,
+        "name": {
+          "local": "الشمال الغربي",
+          "en": "North West",
+          "slug": "north-west-tn2"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 11,
+      "sector": 86
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "35.969",
+      "lon": "9.354"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN31",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "سوسة",
+      "en": "Sousse",
+      "slug": "sousse-tn31"
+    },
+    "code": {
+      "id": "TN31",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN3",
+      "level": 1,
+      "name": {
+        "local": "الوسط الشرقي",
+        "en": "Centre East",
+        "slug": "centre-east-tn3"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN3",
+        "level": 1,
+        "name": {
+          "local": "الوسط الشرقي",
+          "en": "Centre East",
+          "slug": "centre-east-tn3"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 16,
+      "sector": 105
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "35.974",
+      "lon": "10.389"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN32",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "المنستير",
+      "en": "Monastir",
+      "slug": "monastir-tn32"
+    },
+    "code": {
+      "id": "TN32",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN3",
+      "level": 1,
+      "name": {
+        "local": "الوسط الشرقي",
+        "en": "Centre East",
+        "slug": "centre-east-tn3"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN3",
+        "level": 1,
+        "name": {
+          "local": "الوسط الشرقي",
+          "en": "Centre East",
+          "slug": "centre-east-tn3"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 13,
+      "sector": 79
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "35.605",
+      "lon": "10.722"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN33",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "المهدية",
+      "en": "Mahdia",
+      "slug": "mahdia-tn33"
+    },
+    "code": {
+      "id": "TN33",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN3",
+      "level": 1,
+      "name": {
+        "local": "الوسط الشرقي",
+        "en": "Centre East",
+        "slug": "centre-east-tn3"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN3",
+        "level": 1,
+        "name": {
+          "local": "الوسط الشرقي",
+          "en": "Centre East",
+          "slug": "centre-east-tn3"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 11,
+      "sector": 99
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "35.34",
+      "lon": "10.605"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN34",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "صفاقس",
+      "en": "Sfax",
+      "slug": "sfax-tn34"
+    },
+    "code": {
+      "id": "TN34",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN3",
+      "level": 1,
+      "name": {
+        "local": "الوسط الشرقي",
+        "en": "Centre East",
+        "slug": "centre-east-tn3"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN3",
+        "level": 1,
+        "name": {
+          "local": "الوسط الشرقي",
+          "en": "Centre East",
+          "slug": "centre-east-tn3"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 16,
+      "sector": 127
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "34.724",
+      "lon": "10.336"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN41",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "القيروان",
+      "en": "Kairouan",
+      "slug": "kairouan-tn41"
+    },
+    "code": {
+      "id": "TN41",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN4",
+      "level": 1,
+      "name": {
+        "local": "الوسط الغربي",
+        "en": "Centre West",
+        "slug": "centre-west-tn4"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN4",
+        "level": 1,
+        "name": {
+          "local": "الوسط الغربي",
+          "en": "Centre West",
+          "slug": "centre-west-tn4"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 11,
+      "sector": 114
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "35.579",
+      "lon": "9.834"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN42",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "القصرين",
+      "en": "Kassérine",
+      "slug": "kassrine-tn42"
+    },
+    "code": {
+      "id": "TN42",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN4",
+      "level": 1,
+      "name": {
+        "local": "الوسط الغربي",
+        "en": "Centre West",
+        "slug": "centre-west-tn4"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN4",
+        "level": 1,
+        "name": {
+          "local": "الوسط الغربي",
+          "en": "Centre West",
+          "slug": "centre-west-tn4"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 13,
+      "sector": 106
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "35.209",
+      "lon": "8.858"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN43",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "سيدي بوزيد",
+      "en": "Sidi Bou Zid",
+      "slug": "sidi-bou-zid-tn43"
+    },
+    "code": {
+      "id": "TN43",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN4",
+      "level": 1,
+      "name": {
+        "local": "الوسط الغربي",
+        "en": "Centre West",
+        "slug": "centre-west-tn4"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN4",
+        "level": 1,
+        "name": {
+          "local": "الوسط الغربي",
+          "en": "Centre West",
+          "slug": "centre-west-tn4"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 12,
+      "sector": 114
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "34.88",
+      "lon": "9.525"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN51",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "قابس",
+      "en": "Gabès",
+      "slug": "gabs-tn51"
+    },
+    "code": {
+      "id": "TN51",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN5",
+      "level": 1,
+      "name": {
+        "local": "الجنوب الشرقي",
+        "en": "South East",
+        "slug": "south-east-tn5"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN5",
+        "level": 1,
+        "name": {
+          "local": "الجنوب الشرقي",
+          "en": "South East",
+          "slug": "south-east-tn5"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 10,
+      "sector": 73
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "33.776",
+      "lon": "9.794"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN52",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "مدنين",
+      "en": "Médenine",
+      "slug": "mdenine-tn52"
+    },
+    "code": {
+      "id": "TN52",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN5",
+      "level": 1,
+      "name": {
+        "local": "الجنوب الشرقي",
+        "en": "South East",
+        "slug": "south-east-tn5"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN5",
+        "level": 1,
+        "name": {
+          "local": "الجنوب الشرقي",
+          "en": "South East",
+          "slug": "south-east-tn5"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 9,
+      "sector": 94
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "32.99",
+      "lon": "11.285"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN53",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "تطاوين",
+      "en": "Tataouine",
+      "slug": "tataouine-tn53"
+    },
+    "code": {
+      "id": "TN53",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN5",
+      "level": 1,
+      "name": {
+        "local": "الجنوب الشرقي",
+        "en": "South East",
+        "slug": "south-east-tn5"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN5",
+        "level": 1,
+        "name": {
+          "local": "الجنوب الشرقي",
+          "en": "South East",
+          "slug": "south-east-tn5"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 7,
+      "sector": 64
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "31.738",
+      "lon": "9.768"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN61",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "قفصة",
+      "en": "Gafsa",
+      "slug": "gafsa-tn61"
+    },
+    "code": {
+      "id": "TN61",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN6",
+      "level": 1,
+      "name": {
+        "local": "الجنوب الغربي",
+        "en": "South West",
+        "slug": "south-west-tn6"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN6",
+        "level": 1,
+        "name": {
+          "local": "الجنوب الغربي",
+          "en": "South West",
+          "slug": "south-west-tn6"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 11,
+      "sector": 76
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "34.434",
+      "lon": "8.791"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN62",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "توزر",
+      "en": "Tozeur",
+      "slug": "tozeur-tn62"
+    },
+    "code": {
+      "id": "TN62",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN6",
+      "level": 1,
+      "name": {
+        "local": "الجنوب الغربي",
+        "en": "South West",
+        "slug": "south-west-tn6"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN6",
+        "level": 1,
+        "name": {
+          "local": "الجنوب الغربي",
+          "en": "South West",
+          "slug": "south-west-tn6"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 5,
+      "sector": 36
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "33.982",
+      "lon": "8.066"
+    },
+    "metadata": {},
+    "source": {}
+  },
+  {
+    "id": "TN63",
+    "level": 2,
+    "level_name": {
+      "local": "ولاية",
+      "en": "Governorate"
+    },
+    "name": {
+      "local": "قبلي",
+      "en": "Kebili",
+      "slug": "kebili-tn63"
+    },
+    "code": {
+      "id": "TN63",
+      "iso": null
+    },
+    "parent": {
+      "id": "TN6",
+      "level": 1,
+      "name": {
+        "local": "الجنوب الغربي",
+        "en": "South West",
+        "slug": "south-west-tn6"
+      }
+    },
+    "ancestors": [
+      {
+        "id": "TN6",
+        "level": 1,
+        "name": {
+          "local": "الجنوب الغربي",
+          "en": "South West",
+          "slug": "south-west-tn6"
+        }
+      }
+    ],
+    "children_count": {
+      "delegation": 6,
+      "sector": 43
+    },
+    "zip_codes": [],
+    "geo": {
+      "lat": "33.339",
+      "lon": "8.702"
+    },
+    "metadata": {},
+    "source": {}
+  }
+]
