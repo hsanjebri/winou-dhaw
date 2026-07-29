@@ -1,0 +1,14 @@
+{
+  "name": "وينو الضو — Winou Edhaw",
+  "short_name": "وينو الضو",
+  "description": "تتبّع قطعان الضو والماء في تونس — بلاغات المواطنين",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101418",
+  "theme_color": "#101418",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

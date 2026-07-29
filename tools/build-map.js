@@ -7,6 +7,23 @@ const path = require('path');
 const gj = JSON.parse(fs.readFileSync(path.join(__dirname, 'tun-adm1.geojson'), 'utf8'));
 console.log('features:', gj.features.length);
 
+// join geoBoundaries shapeName -> region id from data/regions.json
+const regions = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'regions.json'), 'utf8'));
+const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z]/g, '');
+const NAME_FIX = { elkef: 'lekef', manouba: 'manouba' };
+const govByNorm = {};
+regions.governorates.forEach(g => {
+  govByNorm[norm(g.fr)] = g.id;
+  (g.al || []).forEach(a => { govByNorm[norm(a)] = g.id; });
+});
+function govId(shapeName) {
+  let n = norm(shapeName);
+  n = NAME_FIX[n] || n;
+  const id = govByNorm[n];
+  if (!id) throw new Error('no gov id for ' + shapeName + ' (' + n + ')');
+  return id;
+}
+
 // ---- collect bounds ----
 let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
 function eachPoint(coords, fn) {
@@ -113,8 +130,8 @@ gj.features.forEach(f => {
     });
   });
   const c = centroidOf(allRings);
-  out.push({ name, d, c });
-  console.log(name.padEnd(15), 'pathLen:', d.length, 'centroid:', c);
+  out.push({ id: govId(name), d, c });
+  console.log(govId(name), name.padEnd(15), 'pathLen:', d.length, 'centroid:', c);
 });
 
 const total = out.reduce((s, o) => s + o.d.length, 0);

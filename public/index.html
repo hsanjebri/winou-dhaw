@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#101418">
+<title>وينو الضو — Winou Edhaw</title>
+<meta name="description" content="تتبّع قطعان الضو والماء في تونس — بلاغات المواطنين في الوقت الحقيقي">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="bolt">⚡</span>
+    <h1 data-i18n="appName">وينو الضو</h1>
+  </div>
+  <button id="langBtn" class="ghost" aria-label="language">FR</button>
+</header>
+
+<main>
+  <!-- ── Report card: the <5s flow ── -->
+  <section class="card report-card">
+    <div class="loc-row">
+      <span class="loc-label" data-i18n="yourArea">منطقتك:</span>
+      <button id="locBtn" class="loc-btn"><span id="locName" data-i18n="pickArea">اختر المنطقة</span> <span class="chev">▾</span></button>
+    </div>
+    <div class="big-btns">
+      <button id="reportPower" class="big power" disabled>
+        <span class="icon">⚡</span><span data-i18n="noPower">ما فماش ضو</span>
+      </button>
+      <button id="reportWater" class="big water" disabled>
+        <span class="icon">💧</span><span data-i18n="noWater">ما فماش ماء</span>
+      </button>
+    </div>
+    <details class="note-wrap">
+      <summary data-i18n="addNote">أضف ملاحظة (اختياري)</summary>
+      <input id="noteInput" maxlength="120" data-i18n-ph="notePh" placeholder="مثال: من الصباح…">
+    </details>
+    <div id="myStatus" class="my-status" hidden></div>
+  </section>
+
+  <!-- ── Search ── -->
+  <section class="search-wrap">
+    <input id="search" type="search" autocomplete="off" data-i18n-ph="searchPh"
+           placeholder="لوّج على منطقة… (Sousse / سوسة / 9asrine)">
+    <div id="suggestions" class="suggestions" hidden></div>
+  </section>
+
+  <!-- ── Tabs ── -->
+  <nav class="tabs">
+    <button id="tabList" class="tab active" data-i18n="list">القائمة</button>
+    <button id="tabMap" class="tab" data-i18n="map">الخريطة</button>
+    <button id="tabFollow" class="tab"><span data-i18n="following">المتابَعة</span> <span id="followCount" class="pill" hidden></span></button>
+  </nav>
+
+  <section id="viewList" class="view"></section>
+
+  <section id="viewMap" class="view" hidden>
+    <div id="mapBox" class="map-box"></div>
+    <div class="legend">
+      <span><i class="dot confirmed"></i><span data-i18n="confirmed">مؤكّد</span></span>
+      <span><i class="dot unconfirmed"></i><span data-i18n="unconfirmed">غير مؤكّد</span></span>
+      <span><i class="dot stale"></i><span data-i18n="likelyBack">يظهر رجع</span></span>
+      <span>💧 <span data-i18n="waterShort">ماء</span></span>
+    </div>
+    <div id="govDetail"></div>
+  </section>
+
+  <section id="viewFollow" class="view" hidden></section>
+
+  <p class="updated"><span id="lastUpdated"></span></p>
+  <footer>
+    <p data-i18n="about">بلاغات من المواطنين — بدون حساب، بدون تسجيل. موقعك يتحدّد بالمعتمدية فقط.</p>
+    <p class="attr">Map data © OpenStreetMap / geoBoundaries (ODbL) · Regions: open-admin-data (CC-BY-4.0)</p>
+  </footer>
+</main>
+
+<!-- ── Region picker sheet ── -->
+<div id="sheet" class="sheet" hidden>
+  <div class="sheet-body">
+    <div class="sheet-head">
+      <strong data-i18n="pickAreaTitle">وين إنت؟</strong>
+      <button id="sheetClose" class="ghost">✕</button>
+    </div>
+    <button id="geoBtn" class="geo-btn">📍 <span data-i18n="autoDetect">حدّد موقعي (بالمعتمدية فقط)</span></button>
+    <input id="sheetSearch" type="search" autocomplete="off" data-i18n-ph="searchPh"
+           placeholder="لوّج على منطقة…">
+    <div id="sheetResults" class="sheet-results"></div>
+  </div>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="/map-data.js" defer></script>
+<script src="/app.js" defer></script>
+</body>
+</html>
